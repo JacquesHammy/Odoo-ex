@@ -1,0 +1,53 @@
+#awards{
+    background-color: $lightBlue;
+    position: relative;
+    padding-bottom: 50px;
+    #awards-container{
+        height: 350px;
+        margin-top: 50px;
+        .card{
+            background-color: $light;
+            width: 285px;
+            height: 280px;
+            img{
+                width: 145px;
+            }
+            transition: .3s ease-in-out;
+            &:hover{
+                transform: translateY(-15px);
+                background-color: $lightBlue;
+            }
+        }
+        #card-airbnb, #card-spotify{
+            img{
+                width: 110px;
+            }
+            .stars-container{
+                i{
+                    color: $warning;
+                }
+                .black{
+                    color: $grey;
+                }
+            }
+        }
+        #card-amazon, #card-slack, #card-paypal{
+           .more{
+               color : $darkBlue;
+               text-decoration: none;
+               border-bottom: 2px solid $darkBlue;
+           }
+        }
+    }
+    &::before{
+        content: " ";
+        z-index: -1;
+        bottom: -30px;
+        width: 120%;
+        left: -5%;
+        height: 75px;
+        transform: rotate(-2deg);
+        background-color: $lightBlue;
+        position: absolute;
+    }
+}

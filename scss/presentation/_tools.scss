@@ -1,0 +1,58 @@
+#tools{
+    .left-pan{
+        position: relative;
+        h3{
+            font-size: 22px;
+        }
+        .progress-bar-container{
+            height: 3px;
+            background-color: $grey!important;
+            position: relative;
+            .fill{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                background-color: $warning;
+            }
+        }
+        .duration{
+            padding-right: 25px;
+            position: relative;
+            &::after{
+                content: "›";
+                font-size: 28px;
+                position: absolute;
+                right: 0;
+                line-height: 22px;
+                top: -2px;
+            }
+        }
+
+        .video-thumbnail{
+            position: absolute;
+            top: -100px;
+            right: 60px;
+            width: 350px;
+            height: 300px;
+            border-radius: $borderCorner;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: $borderCorner;
+            }
+            .btn{
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            .play-icon{
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+    
+    
+}

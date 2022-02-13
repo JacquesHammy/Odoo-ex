@@ -1,0 +1,48 @@
+header{
+    height: 90vh;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+    position: relative;
+    &::before{
+        content: " ";
+        z-index: -1;
+        bottom: -30px;
+        width: 120%;
+        left: -5%;
+        height: 75px;
+        transform: rotate(-2deg);
+        background-color: $primary;
+        position: absolute;
+    }
+    #trusted-by{
+        img{
+            width: 90px;
+        }
+    }
+    #mastercard{
+        border-radius: 15px;
+        border-bottom-right-radius: 100px;
+        #card-container{
+            background-color: $cardColor;
+            border-radius: 15px;
+            #mastercard-logo{
+                width: 50px;
+            }
+        }
+        #card-number-copy{
+            font-size: 12px;
+        }
+        #card-number{
+            font-size: 32px;
+        }
+        .expense{
+            border-bottom: 2px solid $grey;
+        }
+        #view-all{
+            border-bottom: 1.5px dashed $primary;
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+}

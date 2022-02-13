@@ -1,0 +1,30 @@
+#presentation{
+    >.container-lg>div{
+        margin-bottom: 200px;
+    }
+    #tools, #features, #technology, #install{
+        position: relative;
+        &::before{
+            content: '';
+            z-index: -1;
+            position: absolute;
+            width: 182px;
+            height: 190px;
+            background-image: url('../src/img/dashed.png');
+        }
+    }
+    #tools, #technology{
+        &::before{
+            left: 42%;
+            top: 105%;
+            transform: translateX(-50%);
+        }
+    }
+    #features, #install{
+        &::before{
+            left: 57%;
+            top: 105%;
+            transform: translateX(-50%) scaleX(-1);
+        }
+    }
+}

@@ -1,0 +1,43 @@
+//IMPORT BOOTSTRAP SCSS 
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$borderCorner: 7px;
+$primary: #0d6efd;
+$darkBlue : #161348;
+$black : #000;
+$light : #FFFFFF;
+$lightBlue : #fafbff;
+$grey : #e6eaf0;
+$green : #5ccaa7;
+$cardColor : #1d1348;
+$theme-colors:(
+    "light" : $light,
+    "primary" : $primary,
+    "success" : $green,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss" ;
+
+@import 'scss/global.scss';
+@import 'scss/normalize.scss';
+@import 'scss/customBootstrap.scss';
+
+@import 'scss/header.scss';
+@import 'scss/nav.scss';
+
+
+@import 'scss/presentation/presentation.scss';
+@import 'scss/presentation/tools.scss';
+@import 'scss/presentation/features.scss';
+@import 'scss/presentation/technology.scss';
+@import 'scss/presentation/install.scss';
+@import 'scss/presentation/solutions.scss';
+
+@import 'scss/awards.scss';
+
+@import 'scss/faq.scss';
+
+@import 'scss/footer.scss';
+

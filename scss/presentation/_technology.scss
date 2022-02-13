@@ -1,0 +1,84 @@
+#technology{
+    .left-pan{
+        #people, #software{
+            width: 48%;
+        }
+        #card-people{
+            img{
+                width: 100%;
+            }
+            .information {
+                position: relative;
+                .initial{
+                    margin-right: 15px;
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 100%;
+                    
+                }
+                .heart{
+                    top: 0;
+                    right: 0;
+                    position: absolute;
+                }
+            }
+            
+        }
+        #card-components{
+            .checkbox{
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                margin-right: 10px;
+                
+            }
+        }
+        #card-airbnb{
+            img{
+                width: 110px;
+            }
+            .stars-container{
+                i{
+                    color: $warning;
+                }
+                .black{
+                    color: $grey;
+                }
+            }
+        }
+        #card-website-UI-kit{
+            .logo{
+                width: 70px;
+                border-radius: 100%;
+            }
+            .other-users{
+                img{
+                    width: 40px;
+                    border-radius: 100%;   
+                    position: relative;
+                    border: 2px solid #FFF;
+                    &:first-of-type{
+                        left: 10%;
+                    }
+                    &:last-of-type{
+                        right: 10%;
+                    }                     
+                }
+            }
+            .interactions{
+                border-top: 1px solid $grey;
+                .bi-paperclip{
+                    display: inline-block;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+    .right-pan{
+        a{
+            display: inline-block;
+            text-decoration: none;
+            border-bottom: 2px solid $primary;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+#features{
+    .left-pan{
+    p{
+        font-size: 20px;
+    }
+    .a-feature{
+        .checkbox{
+            width: 25px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: $borderCorner;
+            margin-right: 10px;
+        }
+    }
+}
+
+    .right-pan{
+        position: relative;
+        .img-wrapper{
+            width: 100%;
+            height: 465px;
+            border-radius: $borderCorner;
+            position: relative;
+            img{
+                border-radius: $borderCorner;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .btn-light{
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
+        }
+    }
+}

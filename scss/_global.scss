@@ -1,0 +1,22 @@
+body{
+    overflow-x: hidden;
+}
+.stroke{
+    border: 2px solid $grey;
+    border-radius: $borderCorner;
+}
+
+.bolder-text{
+    // font-family: "Nunito";
+    font-weight: 700;
+    color : $darkBlue;
+}
+.shadow-box{
+    box-shadow: 0px 0px 15px $grey;
+}
+
+h3 span{
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 15px;
+}

@@ -1,0 +1,30 @@
+footer{
+    position: relative;
+    background-color: $darkBlue;
+    padding-top: 50px;
+    &::before{
+        content: " ";
+        z-index: -1;
+        top: -45px;
+        width: 120%;
+        left: -5%;
+        height: 75px;
+        transform: rotate(-2deg);
+        background-color: $darkBlue;
+        position: absolute;
+    }
+    p span{
+        font-size: 24px;
+    }
+    #pre-footer{
+        margin-bottom: 100px;
+    }
+    #footer-content, #legal-copyright{
+        .odoo-logo{
+            width: 110px;
+        }
+        p, i, li a, a, .copyright-odoo{
+            opacity: .8;
+        }
+    }
+}
