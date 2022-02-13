@@ -1,5 +1,4 @@
 # Odoo Design Exercice 
-## by JD
 
 Export is in dist file. Has to be launch with server.
 
