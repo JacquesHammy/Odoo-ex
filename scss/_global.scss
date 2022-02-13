@@ -5,7 +5,9 @@ body{
     border: 2px solid $grey;
     border-radius: $borderCorner;
 }
-
+.text-darkBlue{
+    color: $darkBlue;
+}
 .bolder-text{
     // font-family: "Nunito";
     font-weight: 700;

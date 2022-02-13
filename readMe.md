@@ -1,6 +1,8 @@
 # Odoo Design Exercice 
 ## by JD
 
+Export is in dist file. Has to be launch with server.
+
 ### Improvements 
  1. First when I got the mockup, I noticed it's for the client Odoo so I would have changed some colos : blue by purple and dark blue/purple by some dark grey. 
 For the layout : 
